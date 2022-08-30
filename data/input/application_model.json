@@ -1,0 +1,21 @@
+{
+    "phases": [
+        {
+            "iterations": "iterations",
+            "tasks": [
+                {
+                    "type": "cpu",
+                    "name": "Compute",
+                    "flops": "flops/num_nodes",
+                    "computation_pattern": "UNIFORM"
+                },
+                {
+                    "type": "pfs_write",
+                    "name": "PFS write",
+                    "bytes": "bytes_io/num_nodes",
+                    "pattern": "UNIFORM"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "jobs": [
+        {
+            "type": "RIGID",
+            "submit_time": 87401,
+            "num_nodes": 12,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 19,
+                "flops": 3.9e15,
+                "bytes_io": 2.3e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 76048,
+            "num_nodes": 11,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 18,
+                "flops": 3.3e15,
+                "bytes_io": 7.7e11
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 44415,
+            "num_nodes": 8,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 24,
+                "flops": 2.2e15,
+                "bytes_io": 7.1e11
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 68980,
+            "num_nodes": 5,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 16,
+                "flops": 1.3e15,
+                "bytes_io": 2e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 21765,
+            "num_nodes": 9,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 17,
+                "flops": 2.6e15,
+                "bytes_io": 1.8e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 84581,
+            "num_nodes": 9,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 20,
+                "flops": 2.8e15,
+                "bytes_io": 3e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 10330,
+            "num_nodes": 15,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 21,
+                "flops": 4.8e15,
+                "bytes_io": 5.8e11
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 37519,
+            "num_nodes": 10,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 21,
+                "flops": 3.2e15,
+                "bytes_io": 1.6e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 14419,
+            "num_nodes": 14,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 24,
+                "flops": 4.3e15,
+                "bytes_io": 3.2e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 18620,
+            "num_nodes": 3,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 16,
+                "flops": 6.1e14,
+                "bytes_io": 1.8e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 57025,
+            "num_nodes": 14,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 12,
+                "flops": 4.4e15,
+                "bytes_io": 2.4e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 17217,
+            "num_nodes": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 17,
+                "flops": 2e15,
+                "bytes_io": 5e12
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 47461,
+            "num_nodes": 13,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 21,
+                "flops": 4e15,
+                "bytes_io": 2.7e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 36941,
+            "num_nodes": 14,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 14,
+                "flops": 4.5e15,
+                "bytes_io": 3.1e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 10420,
+            "num_nodes": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 15,
+                "flops": 2e15,
+                "bytes_io": 1.6e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 59732,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 19,
+                "flops": 2e14,
+                "bytes_io": 2e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 27636,
+            "num_nodes": 3,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 19,
+                "flops": 3.8e14,
+                "bytes_io": 1.9e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 36126,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 14,
+                "flops": 3.2e14,
+                "bytes_io": 1.3e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 78665,
+            "num_nodes": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 23,
+                "flops": 2e15,
+                "bytes_io": 3.2e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 28252,
+            "num_nodes": 11,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 11,
+                "flops": 3.4e15,
+                "bytes_io": 1.5e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 57324,
+            "num_nodes": 13,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 19,
+                "flops": 4.2e15,
+                "bytes_io": 2.3e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 56786,
+            "num_nodes": 10,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 21,
+                "flops": 2.9e15,
+                "bytes_io": 2.1e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 25738,
+            "num_nodes": 14,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 10,
+                "flops": 4.6e15,
+                "bytes_io": 2.1e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 11645,
+            "num_nodes": 3,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 25,
+                "flops": 6.3e14,
+                "bytes_io": 2.8e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 16908,
+            "num_nodes": 12,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 19,
+                "flops": 3.8e15,
+                "bytes_io": 3.3e12
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 24310,
+            "num_nodes": 6,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 14,
+                "flops": 1.5e15,
+                "bytes_io": 3.2e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 34830,
+            "num_nodes": 12,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 16,
+                "flops": 3.8e15,
+                "bytes_io": 3e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 24917,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 22,
+                "flops": 1.1e15,
+                "bytes_io": 2.3e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 4199,
+            "num_nodes": 12,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 15,
+                "flops": 3.9e15,
+                "bytes_io": 3.1e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 66137,
+            "num_nodes": 12,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 13,
+                "flops": 3.8e15,
+                "bytes_io": 6.9e12
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 18068,
+            "num_nodes": 14,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 23,
+                "flops": 4.4e15,
+                "bytes_io": 1.2e13
+            }
+        },
+        {
+            "type": "RIGID",
+            "submit_time": 19794,
+            "num_nodes": 4,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 10,
+                "flops": 9.7e14,
+                "bytes_io": 2.2e13
+            }
+        }
+    ]
+}
