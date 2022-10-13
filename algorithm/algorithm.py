@@ -13,7 +13,8 @@ def schedule(jobs, nodes, system):
 
     pending_jobs = [job for job in jobs if job.state == JobState.PENDING]
     running_jobs = [job for job in jobs if job.state == JobState.RUNNING]
-    reconfiguring_jobs = [job for job in jobs if job.state == JobState.PENDING_RECONFIGURATION]
+    reconfiguring_jobs = [job for job in jobs if job.state == JobState.PENDING_RECONFIGURATION or
+                          job.state == JobState.IN_RECONFIGURATION]
     completed_jobs = [job for job in jobs if job.state == JobState.COMPLETED]
     killed_jobs = [job for job in jobs if job.state == JobState.KILLED]
 
@@ -23,21 +24,15 @@ def schedule(jobs, nodes, system):
 
     for job in jobs:
         if (job.type == JobType.MOLDABLE or job.type == JobType.MALLEABLE) and job.state == JobState.PENDING:
-            for i in range(job.num_nodes_max, job.num_nodes_min - 1, -1):
-                if i <= len(free_nodes):
-                    job.assign(free_nodes[:i])
-                    del free_nodes[:i]
-                    job.assign_num_gpus_per_node(job.num_gpus_per_node_max)
-                    break
+            num_nodes_to_assign = min(len(free_nodes), job.num_nodes_max)
+            if num_nodes_to_assign >= job.num_nodes_min:
+                job.assign(free_nodes[:num_nodes_to_assign])
+                del free_nodes[:num_nodes_to_assign]
         elif job.type == JobType.MALLEABLE and job.state == JobState.RUNNING:
-            num_assigned_nodes = len(job.assigned_nodes)
-            if num_assigned_nodes < job.num_nodes_max:
-                for i in range(job.num_nodes_max - num_assigned_nodes, 0, -1):
-                    if i <= len(free_nodes):
-                        job.assign(free_nodes[:i])
-                        del free_nodes[:i]
-                        job.assign_num_gpus_per_node(job.num_gpus_per_node_max)
-                        break
+            num_nodes_to_expand = min(len(free_nodes), job.num_nodes_max - len(job.assigned_nodes))
+            if num_nodes_to_expand > 0:
+                job.assign(free_nodes[:num_nodes_to_expand])
+                del free_nodes[:num_nodes_to_expand]
         elif job.type == JobType.RIGID and job.state == JobState.PENDING:
             if job.num_nodes <= len(free_nodes):
                 job.assign(free_nodes[:job.num_nodes])

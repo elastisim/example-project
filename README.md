@@ -38,4 +38,4 @@ The first container runs ElastiSim and accepts two inputs:
 
 For a more detailed output change `--log=root.thresh:warning` to `--log=root.thresh:info` (caution: verbose)
 
-The second container runs the scheduling algorithm. Both containers communicate via inter-process communication using the host's temporary directory.
+The second container runs the scheduling algorithm. Both containers communicate via inter-process communication using the first container's temporary directory.
