@@ -1,355 +1,883 @@
 {
     "jobs": [
         {
-            "type": "RIGID",
-            "submit_time": 87401,
-            "num_nodes": 12,
+            "type": "malleable",
+            "submit_time": 8912,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 19,
-                "flops": 3.9e15,
-                "bytes_io": 2.3e13
+                "iterations": 69,
+                "flops": "3.41e+13",
+                "bytes_read": "1.61e+10",
+                "bytes_write": "2.75e+11",
+                "bytes_comm": "2.51e+11"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 76048,
-            "num_nodes": 11,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 18,
-                "flops": 3.3e15,
-                "bytes_io": 7.7e11
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 44415,
-            "num_nodes": 8,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 24,
-                "flops": 2.2e15,
-                "bytes_io": 7.1e11
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 68980,
+            "type": "rigid",
+            "submit_time": 2587,
             "num_nodes": 5,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 16,
-                "flops": 1.3e15,
-                "bytes_io": 2e13
+                "iterations": 139,
+                "flops": "8.e+13",
+                "bytes_read": "2.64e+10",
+                "bytes_write": "1.28e+10",
+                "bytes_comm": "7.46e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 21765,
-            "num_nodes": 9,
+            "type": "malleable",
+            "submit_time": 9504,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 17,
-                "flops": 2.6e15,
-                "bytes_io": 1.8e13
+                "iterations": 55,
+                "flops": "6.45e+13",
+                "bytes_read": "2.92e+11",
+                "bytes_write": "4.21e+10",
+                "bytes_comm": "8.20e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 84581,
-            "num_nodes": 9,
+            "type": "malleable",
+            "submit_time": 6385,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 20,
-                "flops": 2.8e15,
-                "bytes_io": 3e13
+                "iterations": 120,
+                "flops": "1.50e+12",
+                "bytes_read": "3.31e+10",
+                "bytes_write": "1.56e+10",
+                "bytes_comm": "2.11e+11"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 10330,
-            "num_nodes": 15,
+            "type": "malleable",
+            "submit_time": 5680,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 21,
-                "flops": 4.8e15,
-                "bytes_io": 5.8e11
+                "iterations": 62,
+                "flops": "8.08e+13",
+                "bytes_read": "4.32e+10",
+                "bytes_write": "1.77e+11",
+                "bytes_comm": "2.41e+11"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 37519,
-            "num_nodes": 10,
+            "type": "rigid",
+            "submit_time": 7723,
+            "num_nodes": 5,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 21,
-                "flops": 3.2e15,
-                "bytes_io": 1.6e13
+                "iterations": 139,
+                "flops": "6.55e+13",
+                "bytes_read": "2.29e+11",
+                "bytes_write": "2.26e+11",
+                "bytes_comm": "9.56e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 14419,
-            "num_nodes": 14,
+            "type": "rigid",
+            "submit_time": 3339,
+            "num_nodes": 4,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 24,
-                "flops": 4.3e15,
-                "bytes_io": 3.2e13
+                "iterations": 119,
+                "flops": "5.81e+13",
+                "bytes_read": "9.36e+10",
+                "bytes_write": "4.15e+10",
+                "bytes_comm": "1.95e+11"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 18620,
-            "num_nodes": 3,
+            "type": "malleable",
+            "submit_time": 8773,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 16,
-                "flops": 6.1e14,
-                "bytes_io": 1.8e13
+                "iterations": 95,
+                "flops": "1.09e+13",
+                "bytes_read": "1.28e+11",
+                "bytes_write": "2.62e+11",
+                "bytes_comm": "2.85e+11"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 57025,
-            "num_nodes": 14,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 12,
-                "flops": 4.4e15,
-                "bytes_io": 2.4e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 17217,
-            "num_nodes": 7,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 17,
-                "flops": 2e15,
-                "bytes_io": 5e12
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 47461,
-            "num_nodes": 13,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 21,
-                "flops": 4e15,
-                "bytes_io": 2.7e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 36941,
-            "num_nodes": 14,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 14,
-                "flops": 4.5e15,
-                "bytes_io": 3.1e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 10420,
-            "num_nodes": 7,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 15,
-                "flops": 2e15,
-                "bytes_io": 1.6e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 59732,
-            "num_nodes": 2,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 19,
-                "flops": 2e14,
-                "bytes_io": 2e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 27636,
-            "num_nodes": 3,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 19,
-                "flops": 3.8e14,
-                "bytes_io": 1.9e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 36126,
-            "num_nodes": 2,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 14,
-                "flops": 3.2e14,
-                "bytes_io": 1.3e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 78665,
-            "num_nodes": 7,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 23,
-                "flops": 2e15,
-                "bytes_io": 3.2e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 28252,
-            "num_nodes": 11,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 11,
-                "flops": 3.4e15,
-                "bytes_io": 1.5e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 57324,
-            "num_nodes": 13,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 19,
-                "flops": 4.2e15,
-                "bytes_io": 2.3e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 56786,
-            "num_nodes": 10,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 21,
-                "flops": 2.9e15,
-                "bytes_io": 2.1e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 25738,
-            "num_nodes": 14,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 10,
-                "flops": 4.6e15,
-                "bytes_io": 2.1e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 11645,
-            "num_nodes": 3,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 25,
-                "flops": 6.3e14,
-                "bytes_io": 2.8e13
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 16908,
-            "num_nodes": 12,
-            "application_model": "data/input/application_model.json",
-            "arguments": {
-                "iterations": 19,
-                "flops": 3.8e15,
-                "bytes_io": 3.3e12
-            }
-        },
-        {
-            "type": "RIGID",
-            "submit_time": 24310,
+            "type": "rigid",
+            "submit_time": 3689,
             "num_nodes": 6,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 14,
-                "flops": 1.5e15,
-                "bytes_io": 3.2e13
+                "iterations": 84,
+                "flops": "9.02e+13",
+                "bytes_read": "3.16e+11",
+                "bytes_write": "2.02e+11",
+                "bytes_comm": "8.45e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 34830,
-            "num_nodes": 12,
+            "type": "rigid",
+            "submit_time": 5640,
+            "num_nodes": 6,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 16,
-                "flops": 3.8e15,
-                "bytes_io": 3e13
+                "iterations": 85,
+                "flops": "8.29e+13",
+                "bytes_read": "1.99e+11",
+                "bytes_write": "1.03e+11",
+                "bytes_comm": "4.76e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 24917,
+            "type": "moldable",
+            "submit_time": 1628,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 118,
+                "flops": "6.04e+13",
+                "bytes_read": "1.77e+11",
+                "bytes_write": "2.64e+11",
+                "bytes_comm": "2.27e+11"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 204,
+            "num_nodes": 6,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 147,
+                "flops": "8.3e+13",
+                "bytes_read": "7.25e+10",
+                "bytes_write": "2.34e+11",
+                "bytes_comm": "3.08e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 4453,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 81,
+                "flops": "4.04e+12",
+                "bytes_read": "1.77e+11",
+                "bytes_write": "2.02e+11",
+                "bytes_comm": "3.69e+09"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 7312,
+            "num_nodes": 3,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 156,
+                "flops": "2.02e+13",
+                "bytes_read": "2.42e+11",
+                "bytes_write": "2.16e+11",
+                "bytes_comm": "2.91e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 6561,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 87,
+                "flops": "1.67e+13",
+                "bytes_read": "1.03e+11",
+                "bytes_write": "3.12e+11",
+                "bytes_comm": "1.08e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 4473,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 121,
+                "flops": "3.44e+13",
+                "bytes_read": "2.21e+11",
+                "bytes_write": "1.58e+11",
+                "bytes_comm": "6.7e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 2856,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 156,
+                "flops": "5.72e+13",
+                "bytes_read": "2.52e+11",
+                "bytes_write": "2.15e+11",
+                "bytes_comm": "1.03e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 5734,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 120,
+                "flops": "7.49e+11",
+                "bytes_read": "1.48e+11",
+                "bytes_write": "2.89e+11",
+                "bytes_comm": "3.03e+11"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 7846,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 143,
+                "flops": "2.08e+12",
+                "bytes_read": "2.84e+11",
+                "bytes_write": "1.79e+11",
+                "bytes_comm": "2.72e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 5971,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 106,
+                "flops": "2.96e+13",
+                "bytes_read": "7.91e+10",
+                "bytes_write": "9.97e+10",
+                "bytes_comm": "2.17e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 7071,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 141,
+                "flops": "1.59e+13",
+                "bytes_read": "2.24e+11",
+                "bytes_write": "2.91e+11",
+                "bytes_comm": "8.03e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 3094,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 150,
+                "flops": "7.5e+13",
+                "bytes_read": "1.47e+11",
+                "bytes_write": "6.29e+10",
+                "bytes_comm": "2.10e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 4884,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 113,
+                "flops": "4.67e+13",
+                "bytes_read": "2.15e+11",
+                "bytes_write": "1.27e+11",
+                "bytes_comm": "2.86e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 6209,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 51,
+                "flops": "8.36e+13",
+                "bytes_read": "2.82e+11",
+                "bytes_write": "8.29e+10",
+                "bytes_comm": "3.08e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 7821,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 146,
+                "flops": "4.29e+13",
+                "bytes_read": "8.36e+10",
+                "bytes_write": "2.41e+11",
+                "bytes_comm": "1.78e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 7042,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 66,
+                "flops": "2.83e+13",
+                "bytes_read": "2.64e+11",
+                "bytes_write": "2.48e+11",
+                "bytes_comm": "8.18e+09"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 5533,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 149,
+                "flops": "2.41e+13",
+                "bytes_read": "1.11e+11",
+                "bytes_write": "3.15e+11",
+                "bytes_comm": "1.57e+09"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 1448,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 132,
+                "flops": "5.85e+13",
+                "bytes_read": "1.69e+11",
+                "bytes_write": "2.66e+11",
+                "bytes_comm": "2.54e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 8491,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 144,
+                "flops": "5.79e+12",
+                "bytes_read": "3.03e+11",
+                "bytes_write": "1.40e+11",
+                "bytes_comm": "2.69e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 7410,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 56,
+                "flops": "8.04e+13",
+                "bytes_read": "1.62e+11",
+                "bytes_write": "2.31e+11",
+                "bytes_comm": "2.59e+11"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 8226,
+            "num_nodes": 3,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 53,
+                "flops": "2.04e+13",
+                "bytes_read": "1.43e+11",
+                "bytes_write": "6.44e+10",
+                "bytes_comm": "1.12e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 9381,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 57,
+                "flops": "3.99e+13",
+                "bytes_read": "7.85e+10",
+                "bytes_write": "9.e+10",
+                "bytes_comm": "1.97e+11"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 9314,
+            "num_nodes": 3,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 87,
+                "flops": "2.02e+13",
+                "bytes_read": "7.05e+10",
+                "bytes_write": "1.78e+10",
+                "bytes_comm": "1.6e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 5036,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 147,
+                "flops": "9.42e+12",
+                "bytes_read": "3.16e+11",
+                "bytes_write": "1.25e+11",
+                "bytes_comm": "1.27e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 4703,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 157,
+                "flops": "2.12e+12",
+                "bytes_read": "3.25e+10",
+                "bytes_write": "1.87e+11",
+                "bytes_comm": "2.16e+11"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 8378,
             "num_nodes": 4,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 22,
-                "flops": 1.1e15,
-                "bytes_io": 2.3e13
+                "iterations": 102,
+                "flops": "5.70e+13",
+                "bytes_read": "1.92e+11",
+                "bytes_write": "1.56e+11",
+                "bytes_comm": "6.74e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 4199,
-            "num_nodes": 12,
+            "type": "malleable",
+            "submit_time": 7883,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 15,
-                "flops": 3.9e15,
-                "bytes_io": 3.1e13
+                "iterations": 127,
+                "flops": "6.06e+13",
+                "bytes_read": "2.45e+11",
+                "bytes_write": "2.25e+11",
+                "bytes_comm": "3.09e+11"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 66137,
-            "num_nodes": 12,
+            "type": "malleable",
+            "submit_time": 9304,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 13,
-                "flops": 3.8e15,
-                "bytes_io": 6.9e12
+                "iterations": 111,
+                "flops": "8.73e+13",
+                "bytes_read": "8.87e+10",
+                "bytes_write": "1.3e+11",
+                "bytes_comm": "4.57e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 18068,
-            "num_nodes": 14,
+            "type": "rigid",
+            "submit_time": 2668,
+            "num_nodes": 3,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 23,
-                "flops": 4.4e15,
-                "bytes_io": 1.2e13
+                "iterations": 109,
+                "flops": "2.92e+13",
+                "bytes_read": "1.64e+11",
+                "bytes_write": "3.83e+09",
+                "bytes_comm": "2.49e+10"
             }
         },
         {
-            "type": "RIGID",
-            "submit_time": 19794,
+            "type": "malleable",
+            "submit_time": 2020,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 83,
+                "flops": "5.51e+13",
+                "bytes_read": "6.87e+10",
+                "bytes_write": "1.94e+11",
+                "bytes_comm": "4.45e+09"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 9694,
             "num_nodes": 4,
             "application_model": "data/input/application_model.json",
             "arguments": {
-                "iterations": 10,
-                "flops": 9.7e14,
-                "bytes_io": 2.2e13
+                "iterations": 53,
+                "flops": "5.41e+13",
+                "bytes_read": "2.92e+11",
+                "bytes_write": "2.43e+11",
+                "bytes_comm": "4.72e+10"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 5125,
+            "num_nodes": 5,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 82,
+                "flops": "7.5e+13",
+                "bytes_read": "8.03e+10",
+                "bytes_write": "2.46e+11",
+                "bytes_comm": "2.18e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 3064,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 150,
+                "flops": "5.70e+13",
+                "bytes_read": "1.8e+11",
+                "bytes_write": "1.72e+11",
+                "bytes_comm": "3.1e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 1882,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 52,
+                "flops": "4.99e+13",
+                "bytes_read": "2.33e+11",
+                "bytes_write": "2.6e+11",
+                "bytes_comm": "1.39e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 8332,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 148,
+                "flops": "8.69e+13",
+                "bytes_read": "2.16e+11",
+                "bytes_write": "3.34e+10",
+                "bytes_comm": "3.20e+11"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 6740,
+            "num_nodes": 5,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 157,
+                "flops": "7.57e+13",
+                "bytes_read": "3.46e+10",
+                "bytes_write": "1.55e+10",
+                "bytes_comm": "2.94e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 6622,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 101,
+                "flops": "1.76e+13",
+                "bytes_read": "1.75e+11",
+                "bytes_write": "2.23e+11",
+                "bytes_comm": "1.32e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 7862,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 138,
+                "flops": "5.66e+13",
+                "bytes_read": "2.03e+10",
+                "bytes_write": "3.06e+11",
+                "bytes_comm": "9.89e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 1019,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 141,
+                "flops": "1.41e+12",
+                "bytes_read": "1.29e+11",
+                "bytes_write": "5.82e+10",
+                "bytes_comm": "1.66e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 2392,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 95,
+                "flops": "9.2e+13",
+                "bytes_read": "1.09e+11",
+                "bytes_write": "3.02e+10",
+                "bytes_comm": "2.89e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 7077,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 148,
+                "flops": "4.42e+12",
+                "bytes_read": "1.69e+11",
+                "bytes_write": "2.29e+11",
+                "bytes_comm": "1.07e+10"
+            }
+        },
+        {
+            "type": "rigid",
+            "submit_time": 1453,
+            "num_nodes": 2,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 84,
+                "flops": "9.85e+12",
+                "bytes_read": "2.04e+11",
+                "bytes_write": "4.2e+10",
+                "bytes_comm": "2.56e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 738,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 94,
+                "flops": "7.90e+13",
+                "bytes_read": "2.41e+11",
+                "bytes_write": "2.38e+11",
+                "bytes_comm": "7.84e+10"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 3363,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 138,
+                "flops": "4.56e+13",
+                "bytes_read": "8.65e+10",
+                "bytes_write": "9.05e+10",
+                "bytes_comm": "1.64e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 346,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 138,
+                "flops": "7.89e+13",
+                "bytes_read": "9.71e+09",
+                "bytes_write": "2.35e+11",
+                "bytes_comm": "3.2e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 7967,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 101,
+                "flops": "4.99e+13",
+                "bytes_read": "2.18e+11",
+                "bytes_write": "1.32e+11",
+                "bytes_comm": "2.04e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 1450,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 138,
+                "flops": "5.42e+13",
+                "bytes_read": "2.13e+11",
+                "bytes_write": "8.27e+08",
+                "bytes_comm": "1.28e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 4349,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 137,
+                "flops": "9.63e+12",
+                "bytes_read": "5.90e+10",
+                "bytes_write": "2.94e+11",
+                "bytes_comm": "1.45e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 5176,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 74,
+                "flops": "5.46e+13",
+                "bytes_read": "3.17e+11",
+                "bytes_write": "1.56e+11",
+                "bytes_comm": "1.5e+11"
+            }
+        },
+        {
+            "type": "moldable",
+            "submit_time": 4609,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 104,
+                "flops": "1.42e+13",
+                "bytes_read": "2.54e+11",
+                "bytes_write": "2.45e+11",
+                "bytes_comm": "1.96e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 8503,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 87,
+                "flops": "1.17e+13",
+                "bytes_read": "2.53e+10",
+                "bytes_write": "9.29e+10",
+                "bytes_comm": "3.06e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 9514,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 50,
+                "flops": "8.56e+13",
+                "bytes_read": "1.48e+11",
+                "bytes_write": "1.44e+11",
+                "bytes_comm": "2.78e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 3752,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 59,
+                "flops": "7.81e+12",
+                "bytes_read": "1.15e+11",
+                "bytes_write": "1.65e+11",
+                "bytes_comm": "1.70e+11"
+            }
+        },
+        {
+            "type": "malleable",
+            "submit_time": 1683,
+            "num_nodes_min": 2,
+            "num_nodes_max": 7,
+            "application_model": "data/input/application_model.json",
+            "arguments": {
+                "iterations": 120,
+                "flops": "6.22e+13",
+                "bytes_read": "1.68e+11",
+                "bytes_write": "1.28e+11",
+                "bytes_comm": "1.23e+11"
             }
         }
     ]
