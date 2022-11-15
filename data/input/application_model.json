@@ -20,7 +20,7 @@
     "phases": [
         {
             "iterations": "iterations",
-            "final_scheduling_point": "false",
+            "final_scheduling_point": false,
             "tasks": [
                 {
                     "type": "cpu",
@@ -28,7 +28,7 @@
                     "computation_pattern": "uniform",
                     "bytes": "bytes_comm",
                     "communication_pattern": "all_to_all",
-                    "coupled": "true"
+                    "coupled": true
                 },
                 {
                     "type": "pfs_write",
