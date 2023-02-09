@@ -8,7 +8,7 @@
 from elastisim_python import JobState, JobType, NodeState, pass_algorithm
 
 
-def schedule(jobs, nodes, system):
+def schedule(jobs, nodes, system, job=None):
     time = system['time']
 
     pending_jobs = [job for job in jobs if job.state == JobState.PENDING]

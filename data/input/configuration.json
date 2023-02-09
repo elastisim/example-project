@@ -1,7 +1,9 @@
 {
   "scheduling_interval": 60,
-  "min_scheduling_interval": 30,
+  "min_scheduling_interval": 0,
   "schedule_on_job_submit": false,
+  "schedule_on_job_finalize": false,
+  "schedule_on_scheduling_point": false,
   "allow_oversubscription": false,
   "sensing": true,
   "sensing_interval": 1,
