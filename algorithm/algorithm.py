@@ -6,7 +6,7 @@
 # BSD License. See the LICENSE file in the base directory for details.
 from typing import Any
 
-from elastisim_python import JobState, JobType, NodeState, pass_algorithm, Job, Node, InvocationType
+from elastisim_python import JobState, JobType, NodeState, pass_algorithm, Job, Node
 
 
 def schedule(jobs: list[Job], nodes: list[Node], system: dict[str, Any]) -> None:
