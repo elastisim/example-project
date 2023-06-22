@@ -7,6 +7,7 @@
   "allow_oversubscription": false,
   "sensing": true,
   "sensing_interval": 1,
+  "log_task_times": true,
   "zmq_url": "ipc:///tmp/elastisim.ipc",
   "pfs_read_links": ["PFS_read"],
   "pfs_write_links": ["PFS_write"],
@@ -17,5 +18,6 @@
   "node_utilization": "data/output/node_utilization.csv",
   "network_activity": "data/output/network_activity.csv",
   "pfs_utilization": "data/output/pfs_utilization.csv",
-  "gpu_utilization": "data/output/gpu_utilization.csv"
+  "gpu_utilization": "data/output/gpu_utilization.csv",
+  "task_times_file": "data/output/task_times.csv"
 }

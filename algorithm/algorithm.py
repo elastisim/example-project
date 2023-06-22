@@ -4,11 +4,12 @@
 #
 # This software may be modified and distributed under the terms of the 3-Clause
 # BSD License. See the LICENSE file in the base directory for details.
+from typing import Any
 
-from elastisim_python import JobState, JobType, NodeState, pass_algorithm
+from elastisim_python import JobState, JobType, NodeState, pass_algorithm, Job, Node, InvocationType
 
 
-def schedule(jobs, nodes, system):
+def schedule(jobs: list[Job], nodes: list[Node], system: dict[str, Any]) -> None:
     time = system['time']
 
     pending_jobs = [job for job in jobs if job.state == JobState.PENDING]
@@ -23,6 +24,8 @@ def schedule(jobs, nodes, system):
     reserved_nodes = [node for node in nodes if node.state == NodeState.RESERVED]
 
     for job in jobs:
+        if not free_nodes:
+            break
         if (job.type == JobType.MOLDABLE or job.type == JobType.MALLEABLE) and job.state == JobState.PENDING:
             num_nodes_to_assign = min(len(free_nodes), job.num_nodes_max)
             if num_nodes_to_assign >= job.num_nodes_min:
