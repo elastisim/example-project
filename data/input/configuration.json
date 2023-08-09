@@ -19,5 +19,5 @@
   "network_activity": "data/output/network_activity.csv",
   "pfs_utilization": "data/output/pfs_utilization.csv",
   "gpu_utilization": "data/output/gpu_utilization.csv",
-  "task_times_file": "data/output/task_times.csv"
+  "task_times": "data/output/task_times.csv"
 }
