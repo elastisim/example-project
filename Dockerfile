@@ -7,10 +7,10 @@ RUN apt-get install -y build-essential cmake libboost-dev libzmq3-dev python3 py
 
 RUN mkdir /simulation
 
-ADD https://framagit.org/simgrid/simgrid/-/archive/v3.31/simgrid-v3.31.tar.gz /simulation
+ADD https://framagit.org/simgrid/simgrid/-/archive/v3.34/simgrid-v3.34.tar.gz /simulation
 WORKDIR /simulation
-RUN tar -xvzf simgrid-v3.31.tar.gz
-WORKDIR /simulation/simgrid-v3.31
+RUN tar -xvzf simgrid-v3.34.tar.gz
+WORKDIR /simulation/simgrid-v3.34
 RUN cmake -DCMAKE_INSTALL_PREFIX=/simulation/simgrid .
 RUN make -j12
 RUN make install
