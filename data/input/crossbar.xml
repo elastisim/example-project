@@ -7,8 +7,7 @@
                 <prop id="batch_system" value="true"/>
             </host>
         </zone>
-        <cluster id="Crossbar" prefix="DA_" radical="100-227" suffix=""
-                 speed="100Gf" bw="100Gbps" lat="50us">
+        <cluster id="Crossbar" prefix="DA_" radical="100-227" suffix="" speed="100Gf" bw="100Gbps" lat="50us">
             <prop id="node_local_bb" value="false"/>
             <prop id="pfs_targets" value="PFS"/>
         </cluster>
@@ -17,14 +16,12 @@
                 <prop id="pfs_host" value="true"/>
             </host>
         </zone>
-        <link id="PFS_read" bandwidth="300GBps" latency="500us"/>
-        <link id="PFS_write" bandwidth="300GBps" latency="500us"/>
-        <zoneRoute src="PFS_zone" dst="Crossbar" gw_src="PFS"
-                   gw_dst="DA_Crossbar_router" symmetrical="NO">
+        <link id="PFS_read" bandwidth="80GBps" latency="500us"/>
+        <link id="PFS_write" bandwidth="50GBps" latency="500us"/>
+        <zoneRoute src="PFS_zone" dst="Crossbar" gw_src="PFS" gw_dst="DA_Crossbar_router" symmetrical="NO">
             <link_ctn id="PFS_read"/>
         </zoneRoute>
-        <zoneRoute src="Crossbar" dst="PFS_zone" gw_src="DA_Crossbar_router"
-                   gw_dst="PFS" symmetrical="NO">
+        <zoneRoute src="Crossbar" dst="PFS_zone" gw_src="DA_Crossbar_router" gw_dst="PFS" symmetrical="NO">
             <link_ctn id="PFS_write"/>
         </zoneRoute>
     </zone>

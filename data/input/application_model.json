@@ -1,41 +1,57 @@
 {
-    "on_init": {
-        "tasks": [
-            {
-                "type": "pfs_read",
-                "bytes": "bytes_read",
-                "pattern": "all_ranks"
-            }
-        ]
-    },
-    "on_expansion": {
-        "tasks": [
-            {
-                "type": "pfs_read",
-                "bytes": "bytes_read",
-                "pattern": "all_ranks"
-            }
-        ]
-    },
-    "phases": [
-        {
-            "iterations": "iterations",
-            "final_scheduling_point": false,
-            "tasks": [
-                {
-                    "type": "cpu",
-                    "flops": "flops/num_nodes^0.8",
-                    "computation_pattern": "uniform",
-                    "bytes": "bytes_comm",
-                    "communication_pattern": "all_to_all",
-                    "coupled": true
-                },
-                {
-                    "type": "pfs_write",
-                    "bytes": "bytes_write",
-                    "pattern": "all_ranks"
-                }
-            ]
-        }
+  "on_init": {
+    "tasks": [
+      {
+        "type": "pfs_read",
+        "name": "Read model",
+        "bytes": "model_size",
+        "pattern": "root_only"
+      },
+      {
+        "type": "cpu",
+        "name": "Scatter model",
+        "bytes": "model_size",
+        "communication_pattern": "scatter"
+      }
     ]
+  },
+  "on_reconfiguration": {
+    "tasks": [
+      {
+        "type": "pfs_read",
+        "name": "Read model",
+        "bytes": "model_size",
+        "pattern": "root_only"
+      },
+      {
+        "type": "cpu",
+        "name": "Scatter model",
+        "bytes": "model_size",
+        "communication_pattern": "scatter"
+      }
+    ]
+  },
+  "phases": [
+    {
+      "iterations": "iterations",
+      "evolving_request": "phase_iteration % 2 == 0 ? num_nodes - 4 : num_nodes + 4",
+      "tasks": [
+        {
+          "type": "cpu",
+          "name": "Compute & communicate",
+          "flops": "flops/num_nodes^alpha",
+          "computation_pattern": "uniform",
+          "bytes": "communication_size",
+          "communication_pattern": "all_to_all",
+          "coupled": true
+        },
+        {
+          "type": "pfs_write",
+          "name": "Checkpoint",
+          "bytes": "checkpoint_size",
+          "pattern": "all_ranks"
+        }
+      ]
+    }
+  ]
 }
