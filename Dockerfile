@@ -26,7 +26,7 @@ RUN make install
 FROM python:3.12-slim
 
 RUN apt-get update
-RUN apt-get install -y --no-install-recommends libzmq5
+RUN apt-get install -y --no-install-recommends libzmq5 git
 RUN rm -rf /var/lib/apt/lists/*
 
 COPY --from=builder /usr/local /usr/local
