@@ -4,8 +4,17 @@
 #
 # This software may be modified and distributed under the terms of the 3-Clause
 # BSD License. See the LICENSE file in the base directory for details.
+
+import logging
 from typing import Any
-from elastisim_python import JobState, JobType, NodeState, pass_algorithm, Job, Node, InvocationType
+
+from elastisim_python import InvocationType, Job, JobState, JobType, Node, NodeState, pass_algorithm
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 
 
 def schedule(jobs: list[Job], nodes: list[Node], system: dict[str, Any]) -> None:
