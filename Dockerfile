@@ -31,10 +31,7 @@ RUN ldconfig
 
 RUN python -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
-RUN git clone https://github.com/elastisim/elastisim-python.git /build/elastisim-python && \
-    pip install --upgrade pip && \
-    pip install /build/elastisim-python
-
-RUN rm -rf /build
+RUN pip install --upgrade pip && \
+    pip install git+https://github.com/elastisim/elastisim-python.git
 
 ENTRYPOINT ["/usr/local/bin/elastisim"]
